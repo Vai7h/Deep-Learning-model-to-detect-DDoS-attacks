@@ -17,7 +17,7 @@ The dataset used in this research is made up of SDN-specific data produced by th
 8. The "dt field" contains date and time converted into a numerical format.
 9. Flow monitoring occurs at 30-second intervals.
 
-###Proposed Methodology:
+### Proposed Methodology:
 
 This dataset is designed specifically for Software-Defined Networks (SDN) and is intended for deep learning. It is produced by designing host-to-host Mininet topologies. Python programs gather flow and port information, combining stats into a single dataset. Preprocessing and model construction are aided by libraries like sklearn, TensorFlow, and Pandas. The dataset is prepared, encoded, and divided into training and testing groups. The application of baseline classifiers (DNN, KNN, SVM, etc.) results in the maximum accuracy (99.19%) being produced by DNN. Tuning the hyperparameters improves model performance. The resulting model avoids overfitting and displays a good level of accuracy with an AUC of 0.9998218809615622.
 
